@@ -1,4 +1,4 @@
-baseURL = 'https://blog.debene.xyz'
+baseURL = 'https://www.debene.xyz'
 languageCode = 'en-us'
 title = 'Felipe De Bene's Site'
 theme = "ananke"
