@@ -1,4 +1,9 @@
 baseURL = 'https://www.debene.xyz'
 languageCode = 'en-us'
-title = 'De Bene Tech Notes'
+title = "De Bene's Tech Notes"
 theme = "ananke"
+
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/FelipeDeBene1"
