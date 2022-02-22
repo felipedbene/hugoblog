@@ -2,6 +2,7 @@
 title: "Hugo Ordeal"
 date: 2022-02-21T19:46:53-06:00
 draft: false
+toc: true
 ---
 
 
@@ -24,4 +25,17 @@ title = 'De Bene's Tech Notes'
 theme = "ananke"
 ```
 
-I couldn't find the a way of escaping the 's yet.
+In the end it was as stupid as using " instead of ' and the final code was :
+
+```
+baseURL = 'https://www.debene.xyz'
+languageCode = 'en-us'
+title = "De Bene's Tech Notes"
+theme = "ananke"
+```
+
+Easy enough and to host it, of course AWS' Amplify: 
+
+I've used this [tutorial](https://aws.amazon.com/es/blogs/devops/agile-website-delivery-with-hugo-and-aws-amplify/).
+
+;-)
